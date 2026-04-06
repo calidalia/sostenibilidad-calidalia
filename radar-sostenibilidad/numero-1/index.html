@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Radar Sostenible Nº 1</title>
+  <title>Radar Sostenible Calidalia Nº 1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
@@ -16,12 +16,37 @@
     header {
       background: #093254;
       color: white;
-      padding: 40px 20px;
+      padding: 40px 20px 30px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    .nav {
+      background: white;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #093254;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
     }
 
     .container {
@@ -30,27 +55,49 @@
       padding: 0 20px;
     }
 
+    .section-title {
+      font-size: 18px;
+      color: #093254;
+      margin-bottom: 20px;
+    }
+
     .card {
       background: white;
       padding: 25px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.08);
       margin-bottom: 20px;
-      transition: 0.2s;
+      transition: all 0.2s ease;
+      border-left: 4px solid transparent;
     }
 
     .card:hover {
       transform: translateY(-4px);
+      border-left: 4px solid #093254;
     }
 
     .card h2 {
       margin: 0 0 10px 0;
       color: #093254;
+      font-size: 20px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #444;
+      line-height: 1.5;
     }
 
     a {
       text-decoration: none;
       color: inherit;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      padding: 30px 20px;
     }
 
   </style>
@@ -63,7 +110,17 @@
   <p>Regulación, tendencias y buenas prácticas ESG</p>
 </header>
 
+<div class="nav">
+  <a href="brujula-regulatoria.html">Brújula</a>
+  <a href="descarbonizacion.html">Descarbonización</a>
+  <a href="buenas-practicas.html">Buenas prácticas</a>
+  <a href="cifras-utiles.html">Cifras</a>
+  <a href="proyectos-socios.html">Proyectos</a>
+</div>
+
 <div class="container">
+
+  <div class="section-title">Contenido del Radar</div>
 
   <a href="brujula-regulatoria.html">
     <div class="card">
@@ -75,53 +132,36 @@
   <a href="descarbonizacion.html">
     <div class="card">
       <h2>Descarbonización</h2>
-      <p>Estrategias y enfoques para reducir emisiones (Alcance 3)</p>
+      <p>Estrategias reales para reducir emisiones en la cadena de suministro</p>
     </div>
   </a>
 
-  <a href="buenas-practicas-y-otros-proyectos-del-sector.html">
+  <a href="buenas-practicas.html">
     <div class="card">
       <h2>Buenas prácticas y proyectos del sector</h2>
-      <p>Casos reales y modelos aplicados en la industria</p>
+      <p>Casos reales y modelos aplicados en la industria alimentaria</p>
     </div>
   </a>
 
   <a href="cifras-utiles.html">
     <div class="card">
       <h2>Cifras útiles</h2>
-      <p>Datos clave para comunicación y análisis ESG</p>
+      <p>Datos clave para análisis y toma de decisiones ESG</p>
     </div>
   </a>
 
-  <a href="proyectos-de-los-socios.html">
+  <a href="proyectos-socios.html">
     <div class="card">
       <h2>Proyectos de los socios</h2>
-      <p>Iniciativas internas compartidas por las empresas</p>
-    </div>
-  </a>
-
-  <a href="agenda-sostenibilidad.html">
-    <div class="card">
-      <h2>Agenda sostenibilidad</h2>
-      <p>Eventos y hitos relevantes del mes</p>
-    </div>
-  </a>
-
-  <a href="saber-mas-sroi.html">
-    <div class="card">
-      <h2>Saber más: SROI</h2>
-      <p>Cómo medir el impacto social y ambiental de las inversiones</p>
-    </div>
-  </a>
-
-  <a href="entrevista-victoria-gonzalez-gordon.html">
-    <div class="card">
-      <h2>Entrevista</h2>
-      <p>Victoria González-Gordon (González Byass)</p>
+      <p>Iniciativas reales dentro del ecosistema Calidalia</p>
     </div>
   </a>
 
 </div>
+
+<footer>
+  © Calidalia · Radar de Sostenibilidad · Nº 1
+</footer>
 
 </body>
 </html>
