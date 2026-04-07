@@ -13,11 +13,53 @@
       color: #1a1a1a;
     }
 
-    header {
-      background: #093254;
-      color: white;
-      padding: 30px 20px;
-    }
+  .header {
+  background: #093254;
+  color: white;
+  padding: 30px 20px;
+}
+
+.header-inner,
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-text {
+  padding-top: 4px;
+}
+
+.header-text h1 {
+  margin: 0;
+  color: white;
+}
+
+.header-text p {
+  margin: 5px 0 0 0;
+  opacity: 0.9;
+}
+
+.logo {
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .logo {
+    height: 36px;
+  }
+}
 
     .container {
       max-width: 900px;
@@ -58,9 +100,21 @@
 
 <body>
 
-<header style="text-align:center;">
-  <h1>Descarbonización</h1>
-  <p>Estrategias reales para reducir emisiones en la cadena de suministro</p>
+<header class="header">
+
+  <div class="header-inner">
+
+    <div class="header-text">
+      <h1>Descarbonización</h1>
+      <p>Claves para la reducción de emisiones en la cadena de valor</p>
+    </div>
+
+    <img src="../logo_calidalia.png"
+         alt="Calidalia"
+         class="logo">
+
+  </div>
+
 </header>
 <div style="max-width:900px; margin:20px auto 10px; font-size:14px; line-height:1.6;">
   <a href="index.html" style="color:#093254; font-weight:600; text-decoration:none;">
