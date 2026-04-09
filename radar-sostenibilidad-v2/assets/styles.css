@@ -95,3 +95,13 @@ body {
   border: none;
   border-top: 1px solid #e5e5e5;
 }
+.home-back-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home-back-link a {
+  color: #093254;
+  font-weight: 600;
+  text-decoration: none;
+}
