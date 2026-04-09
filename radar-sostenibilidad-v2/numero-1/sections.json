@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Brújula regulatoria",
+    "descripcion": "Principales novedades normativas que impactan en sostenibilidad.",
+    "url": "brujula-regulatoria.html"
+  },
+  {
+    "titulo": "Descarbonización",
+    "descripcion": "Claves para la reducción de emisiones en la cadena de valor.",
+    "url": "descarbonizacion.html"
+  },
+  {
+    "titulo": "Buenas prácticas",
+    "descripcion": "Casos reales y modelos aplicados en la industria.",
+    "url": "buenas-practicas.html"
+  },
+  {
+    "titulo": "Cifras útiles",
+    "descripcion": "Datos clave para análisis y comunicación ESG.",
+    "url": "cifras-utiles.html"
+  },
+  {
+    "titulo": "Proyectos de los socios",
+    "descripcion": "Iniciativas compartidas por empresas del entorno Calidalia.",
+    "url": "proyectos-socios.html"
+  },
+  {
+    "titulo": "Agenda sostenibilidad",
+    "descripcion": "Eventos y hitos relevantes del periodo.",
+    "url": "agenda-sostenibilidad.html"
+  },
+  {
+    "titulo": "Saber más: SROI",
+    "descripcion": "Cómo medir el impacto social y ambiental de las inversiones.",
+    "url": "saber-mas-sroi.html"
+  },
+  {
+    "titulo": "Entrevista",
+    "descripcion": "Victoria González-Gordon (González Byass).",
+    "url": "entrevista-victoria-gonzalez-gordon.html"
+  }
+]
