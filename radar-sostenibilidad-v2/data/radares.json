@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "Radar Sostenible Nº 1",
+    "descripcion": "Regulación, descarbonización, buenas prácticas, cifras clave y proyectos del sector alimentario.",
+    "url": "numero-1/",
+    "estado": "publicado"
+  },
+  {
+    "titulo": "Radar Sostenible Nº 2",
+    "descripcion": "Próximamente disponible.",
+    "url": "numero-2/",
+    "estado": "proximamente"
+  }
+]
